@@ -1,2 +1,8 @@
 ﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> F:\HomeWork\VS\ConsoleApplication1\Debug\ConsoleApplication1.exe
+F:\project\cloneRep\SD_laba2\ConsoleApplication1\ConsoleApplication1.cpp(81,34): warning C4018: <: несоответствие типов со знаком и без знака
+F:\project\cloneRep\SD_laba2\ConsoleApplication1\ConsoleApplication1.cpp(84,38): warning C4018: <: несоответствие типов со знаком и без знака
+F:\project\cloneRep\SD_laba2\ConsoleApplication1\ConsoleApplication1.cpp(186,34): warning C4018: <: несоответствие типов со знаком и без знака
+F:\project\cloneRep\SD_laba2\ConsoleApplication1\ConsoleApplication1.cpp(189,38): warning C4018: <: несоответствие типов со знаком и без знака
+F:\project\cloneRep\SD_laba2\ConsoleApplication1\ConsoleApplication1.cpp(27,10): warning C4101: menu: неиспользованная локальная переменная
+F:\project\cloneRep\SD_laba2\ConsoleApplication1\ConsoleApplication1.cpp(33,33): warning C4101: temp: неиспользованная локальная переменная
+  ConsoleApplication1.vcxproj -> F:\project\cloneRep\SD_laba2\Debug\ConsoleApplication1.exe
