@@ -42,7 +42,7 @@ int main() {
         }
         in.seekg(0, ios_base::beg);
         in.clear();
-        delete str;
+        delete []str;
 
         int** originalMatrix;
         originalMatrix = new int* [countOfString];
@@ -133,7 +133,7 @@ int main() {
             break;
             delete[]pos;
             delete[]node;
-            delete []ver;
+            delete[]ver;
         }
         case 2: {
 
@@ -233,7 +233,7 @@ int main() {
                 printf("%3d ", ver[i]);
             cout << "\nКратчайший путь из города 1 в город 6 = " << pos[countOfString - 1] << endl;
             break;
-            delete pos, node, ver, list;
+            delete[] pos; delete[] node; delete[] ver, delete[] list;
         }
         default: {
             cout << "Данный пункт меню отсутствует, повторите попытку" << endl;
