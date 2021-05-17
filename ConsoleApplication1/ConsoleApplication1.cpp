@@ -240,7 +240,11 @@ int main() {
             break;
         }
         }
+        for (int i = 0; i < countOfString; i++)
+            delete[] originalMatrix[i];
         delete[]originalMatrix;
+        for (int i = 0; i < countOfString; i++)
+            delete[] matrix[i];
         delete[]matrix;
     }
     else {
